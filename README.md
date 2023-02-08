@@ -2,47 +2,26 @@
 
 ![](/temp/preview.png)
 
-## Install
-<br>https://www.python.org/downloads/</br>
-<br>Pront de comando ⬇</br>
+## Installation and Setup
 
-```bash
-pip install websocket-client==0.37.0
-```
-```bash
-pip install requests
-```
-```bash
-pip install websocket
-```
-```bash
-pip install json
-```
-```bash
-pip install random
-```
-```bash
-pip install time
-```
+### Prerequisites
+- Python (https://www.python.org/downloads/)
+- Pip (Usually comes with an Official Installation of Python)
 
-```bash
-py -3 -m pip install requests
-```
-```bash
-py -3 -m pip install websocket
-```
+1. Clone the Repository
+   - `git clone <Repo name>`
 
-```bash
-py -3 -m pip install json
-```
-```bash
-py -3 -m pip install random
-```
+2. Change into Project Directory
+   - `cd CLEAR-ALL-DM_DISCORD`
 
-```bash
-py -3 -m pip install time
-```
+3. Setup Virtual Environment
+   - `pip install pipenv`
+   - `pipenv shell`
 
-```bash
-py -3 -m pip install websocket-client==0.37.0
-```
+4. Install Dependencies
+   - `pipenv install -r requirements.txt`
+
+You can Run or Edit the Project as you wish from here onwards
+
+
+
